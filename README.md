@@ -3,7 +3,7 @@
 
 ## Install
 ```
-npm install @pd-node/cognito-authentication
+npm install @pd-js/cognito-authentication
 ```
 ## Requirements
 Environment variables
@@ -22,7 +22,7 @@ COGNITO_LOGIN_GRANT_TYPE: <grantType>
 * example: in app router
 
 ```
-const cognitoAuthentication = require('@pd-node/cognito-authentication')
+const cognitoAuthentication = require('@pd-js/cognito-authentication')
 const router = require('express').Router()
 
 router.get('/login', cognitoAuthentication) // to login
