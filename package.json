@@ -1,5 +1,5 @@
 {
-  "name": "cognito-authentication",
+  "name": "@pd-node/cognito-authentication",
   "version": "1.0.0",
   "description": "cognito authentication - express server side",
   "main": "./src/index.js",
